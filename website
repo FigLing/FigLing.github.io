@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silingga Metta Jauhari</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Silingga Metta Jauhari</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my personal webpage. My name is Silingga Metta Jauhari, and I'm passionate about [brief bio]. I specialize in [your specialties], and I'm always eager to learn and explore new opportunities in the field of [your field].</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here is a showcase of some of my recent projects:</p>
+        <ul>
+            <li>Project 1: [Description]</li>
+            <li>Project 2: [Description]</li>
+            <li>Project 3: [Description]</li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, please reach out via [your preferred contact method, e.g., email, LinkedIn, etc.].</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Silingga Metta Jauhari</p>
+    </footer>
+</body>
+</html>
